@@ -1,0 +1,26 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    
+    
+    {
+      "name": "PowerShell: Run Virtual Environment",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": ". '.venv/Scripts/Activate.ps1';",
+      // "script": "Enter path or command to execute, for example: \"${workspaceFolder}/src/foo.ps1\" or \"Invoke-Pester\"",
+      "args": []
+    },
+    {
+      "name": "PowerShell: Run Django App",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": ". '.venv/Scripts/Activate.ps1'; python manage.py runserver;",
+      // "script": "Enter path or command to execute, for example: \"${workspaceFolder}/src/foo.ps1\" or \"Invoke-Pester\"",
+      "args": []
+    }
+  ]
+}
